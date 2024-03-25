@@ -1,0 +1,131 @@
+body {
+    background-color: #212121;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+h1{
+    font-family: "Bebas Neue";
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h5{
+    text-align: center;
+    font-family: "Bebas Neue";
+    font-size: 40px;
+    font-weight: bold;
+}
+
+p{
+    font-size: 22px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.trailer{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.avatar-container {
+    text-align: center;
+}
+
+.avatar-container img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.info {
+    text-align: center;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 10px;
+}
+
+.menu-items {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-items li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.menu-items li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px; 
+}
+
+.menu-items li a:hover {
+    background-color: #001f3f; 
+    color: #fff; 
+}
+.livros-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.livro {
+    background-color: white;
+    border-radius: 10px;
+    width: 300px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: black;
+}
+
+p2{
+    font-size: 15px;
+}
+p3{
+    font-size: 20px;
+}
+
+
+.livro img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.musicas-container {
+    text-align: center;
+}
+
+.musica img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.musica {
+    text-align: center;
+}
