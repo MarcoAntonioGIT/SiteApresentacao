@@ -13,14 +13,9 @@ h1{
     font-family: "Bebas Neue";
     font-size: 40px;
     font-weight: bold;
+    text-align: center;
 }
 
-h5{
-    text-align: center;
-    font-family: "Bebas Neue";
-    font-size: 40px;
-    font-weight: bold;
-}
 
 p{
     font-size: 22px;
@@ -41,6 +36,7 @@ p{
 
 .avatar-container {
     text-align: center;
+    
 }
 
 .avatar-container img {
@@ -49,6 +45,7 @@ p{
     border-radius: 50%;
     margin-top: 10px;
     margin-bottom: 10px;
+    
 }
 
 .info {
